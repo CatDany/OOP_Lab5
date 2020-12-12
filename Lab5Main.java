@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Lab5Main {
-
-    public static JFrame frameServer;
     public static JFrame frameAlice;
     public static JFrame frameBob;
 

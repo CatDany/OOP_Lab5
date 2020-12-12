@@ -18,8 +18,17 @@ public class TTTClient implements Runnable {
     private int port;
 
     public JFrame frame;
+    /**
+     * 0 = "O"
+     * 1 = "X"
+     */
     public int playerId;
     public boolean isMyTurn = false;
+    /**
+     * "-1" = пусто
+     * "0" = "O" = playerId
+     * "1" = "X" = playerId
+     */
     public String[] grid;
 
     private static final Color CLICKABLE_COLOR = Color.white;

@@ -15,6 +15,11 @@ public class TTTServer {
         } catch (IOException t) {}
     }
 
+    /**
+     * -1 = пусто
+     * 0 = "O" = playerId
+     * 1 = "X" = playerId
+     */
     public int[][] grid = {{-1, -1, -1}, {-1, -1, -1}, {-1, -1, -1}};
     public int whoseTurn = 0;
 

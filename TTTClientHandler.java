@@ -11,6 +11,10 @@ public class TTTClientHandler implements Runnable {
     private BufferedReader in;
     private TTTServer server;
 
+    /**
+     * 0 = "O"
+     * 1 = "X"
+     */
     private int playerId;
 
     public TTTClientHandler(int playerId, TTTServer server) {
